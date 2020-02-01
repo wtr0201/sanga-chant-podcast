@@ -2,7 +2,7 @@ actors:
   wtr0201:
     image_url: /images/actors/alice.png
     name: wtr0201
-    url: http://sns.example.com/alice
+    url: https://twitter.com/wtr0201
 author: wtr0201
 description: Kyoto Sanga F.C. Supporter Chant Podcast
 description_long: Kyoto Sanga F.C. Supporter Chant Podcast
