@@ -1,16 +1,12 @@
 actors:
-  alice:
+  wtr0201:
     image_url: /images/actors/alice.png
-    name: alice
+    name: wtr0201
     url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+author: wtr0201
+description: Kyoto Sanga F.C. Supporter Chant Podcast
+description_long: Kyoto Sanga F.C. Supporter Chant Podcast
+email: wataru@sanga.kyoto
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +16,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: sangafc
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: sangafc,football,chant
 language: ja
 markdown: kramdown
-permalink: /episode/:title
+permalink: /chant/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: 京都サンガ応援歌Podcast
+url: https://wtr0201.github.io/sanga-chant-podcast/
