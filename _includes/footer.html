@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer-sections">
       <div class="row">
-        <section class="column-small-4 footer-sections-element">
+        <section class="column-small-6 footer-sections-element">
           <h1 class="footer-sections-element-heading">
             {{ site.title }} とは
           </h1>
@@ -10,20 +10,7 @@
             {{ site.title }} は、{{ site.description_long }}です。
           </div>
         </section>
-        <section class="column-small-4 footer-sections-element">
-          <h1 class="footer-sections-element-heading">
-            #{{ site.hashtag }}
-          </h1>
-          <div class="footer-sections-element-description">
-            {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> をご利用ください。
-          </div>
-          <div class="footer-twitter">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
-              Tweet
-            </a>
-          </div>
-        </section>
-        <section class="column-small-4 footer-sections-element">
+        <section class="column-small-6 footer-sections-element">
           <h1 class="footer-sections-element-heading">
             購読
           </h1>
@@ -38,9 +25,6 @@
             {% endif %}
             <li>
               <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
-            </li>
-            <li>
-              <a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
             </li>
             <li>
               <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
